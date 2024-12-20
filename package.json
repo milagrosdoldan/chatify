@@ -1,0 +1,28 @@
+{
+    "name": "chatify",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/milagrosdoldan/chatify.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/milagrosdoldan/chatify/issues"
+    },
+    "homepage": "https://github.com/milagrosdoldan/chatify#readme",
+    "dependencies": {
+        "@libsql/client": "^0.14.0",
+        "dotenv": "^16.4.7",
+        "express": "4.21.2",
+        "morgan": "1.10.0",
+        "socket.io": "4.8.1"
+    }
+}
